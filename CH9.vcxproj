@@ -21,6 +21,11 @@
   <ItemGroup>
     <ClCompile Include="1.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\S__23855108_0.jpg" />
+    <Image Include="..\..\S__23855110_0.jpg" />
+    <Image Include="..\..\S__23855114.jpg" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

@@ -19,4 +19,15 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\S__23855108_0.jpg">
+      <Filter>來源檔案</Filter>
+    </Image>
+    <Image Include="..\..\S__23855110_0.jpg">
+      <Filter>來源檔案</Filter>
+    </Image>
+    <Image Include="..\..\S__23855114.jpg">
+      <Filter>來源檔案</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
