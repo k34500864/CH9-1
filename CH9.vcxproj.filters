@@ -18,6 +18,9 @@
     <ClCompile Include="1.c">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="dama.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\S__23855108_0.jpg">

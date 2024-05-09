@@ -2,17 +2,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define S 5
+#define S 2
+#define M 3
 
 void av_sum(int a[]);
 
 int main(void) {
-	int a[S] = {0}, b[S] = {0}, c[S] = {0}, d[S] = {0}, e[S] = {0};
+	int a[M] = { 0 }, b[M] = { 0 };
 	int n = 65, i, j;
 
 	for (i = 0; i < S; i++)
 	{
-		for (j = 0; j < S; j++)
+		for (j = 0; j < M; j++)
 		{
 			printf("輸入學生%c成績%d:", 65 + i, j + 1);
 			if (n == 65)
@@ -23,18 +24,6 @@ int main(void) {
 			{
 				scanf("%d", &b[j]);
 			}
-			if (n == 67)
-			{
-				scanf("%d", &c[j]);
-			}
-			if (n == 68)
-			{
-				scanf("%d", &d[j]);
-			}
-			if (n == 69)
-			{
-				scanf("%d", &e[j]);
-			}
 		}
 		n += i;
 	}
@@ -42,7 +31,7 @@ int main(void) {
 }
 void av_sum(int a[]) {
 	int i, sum = 0;
-	for (i = 0; i < S; i++)
+	for (i = 0; i < M; i++)
 	{
 		sum += a[i];
 	}
