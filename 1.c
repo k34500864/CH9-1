@@ -38,7 +38,8 @@ int main(void) {
 			n += i;
 		}
 	}
-	printf("學生%s總分 : %d, 平均 : %d\n", 65 + i, av_sum(a[]));
+	printf("學生%s總分 : %d, 平均 : \n", 65 + i);
+	av_sum(a);
 }
 void av_sum(int a[]) {
 	int i, sum;
